@@ -6,44 +6,51 @@ function Validar(){
 	 var Div=document.getElementById("Resultado");
 	// var Ec=document.Form1.TxtEstado.value;
 
-	alert(User);
-	alert(Pass);
+	
 
 	 if(User === '' || Pass === ''){
 	 	alert("faltan datos");
 
      } else {
-			alert("paso por aca?");
+			
 			document.F1.submit();
 	}
+}
+function Validar1(){
 
-// 	var F=parseInt(document.f2.TxtFilas.value);
-// 	var C=parseInt(document.f2.TxtCol.value);
-// 	var r=document.getElementById("Resultado");
-// 	var tabla="<table border=2 cellspacing=4 cellpadding=12>";
-// 	var D=document.getElementById("Datos");
-// 	var Al=0;
-// 	var Tam=F*C;
-// 	var Datos="";
-// 	var Arreglo=[Tam];
-// 	//td para columnas
-// 	//tr para filas
+	var Nombre=document.F2.TxtNombre.value;
+	var Apellido=document.F2.TxtApellido.value;
+	var Cedula=document.F2.NumCedula.value;
+	var Edad=document.F2.Edad.value;
+	var Email=document.F2.Mail.value;
+	var Trabajo=document.F2.TxtEstado.value;
 
-// 	for(var i=0; i< F; i++){
-// 		tabla+="<tr>";
-// 			for(var j=0; j< C;j++){
-// 				Al=Math.round(Math.random()*10);
-// 					for (var K = 0; K< Arreglo.length; K++) {
-// 						Arreglo[K]=Al;
-// 						Datos+=Arreglo[K]+="-";
-// 					};
+	 if(Nombre === '' || Apellido === ''  || Cedula==='' || Edad==='' 
+	 	|| Email==='' || Trabajo=='99'){
+	 	alert("Recuerde llenar todos los campos");
 
-// 			tabla+="<td>"+Al+"</td>";
-// 		}
-// 	tabla+="</tr>";
-// }
-// tabla+="</table><br><br><br><br><br>";
-// r.innerHTML=tabla + "Datos : " + Datos;
+     } else {
+			
+			document.F2.submit();
+	}
+}
+function Validar2(){
 
+	
+	var Cedula=document.F3.User.value;
+	var Fnac=document.F3.FNac.value;
+	
+	// var Cel=document.Form1.TxtCelular.value;
+	 //var Div=document.getElementById("Resultado");
+	// var Ec=document.Form1.TxtEstado.value;
 
+	
+
+	 if( Cedula==='' || Fnac===''){
+	 	alert("Recuerde llenar todos los campos");
+
+     } else {
+			
+			document.F3.submit();
+	}
 }

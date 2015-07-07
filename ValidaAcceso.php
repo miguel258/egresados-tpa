@@ -14,9 +14,21 @@
 
 				if($Id==$fila["Id"] && $Pass==$fila["Pass"]){
 					$SW=true;
+
 				}
 		}if($SW==true){
-			echo "BIENVENIDO";
+			echo "
+				<script>
+  				window.location.href='MenuAdmin.php';
+  			</script>";
+
+
+		}else if($SW==false){
+			echo"
+
+			<script>
+  				window.location.href='Loggin.php';
+  			</script>";
 		}
 
 

@@ -4,7 +4,7 @@
 
 		static function Conectar(){
 
-		$Con=mysql_connect("localhost","root","root");
+		$Con=mysql_connect("localhost","root","");
 		mysql_select_db("prupar", $Con);
 
 		return $Con;

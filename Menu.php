@@ -6,6 +6,6 @@
 <header>QUE DESEA HACER?</header><br>
 <body>
 
-<a href="Loggin.html">INICIAR SESSION</a><!--luego de esto sacar otros dos menu-->
+<a href="Loggin.php">INICIAR SESSION</a><!--luego de esto sacar otros dos menu-->
 
 </html>
